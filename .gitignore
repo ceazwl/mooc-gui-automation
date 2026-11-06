@@ -1,0 +1,23 @@
+# 私有 / 本机 / 本课程的数据：不要提交，也不要发给别人
+last_url.txt                 # 含会话令牌 enc/openc，等同于登录凭据
+answers_known.json           # 这门课的答案缓存（平台认可过的）
+chapter_ids.json             # 这门课的小节 id 映射
+screen_calib.json            # 这台机器的布局实测
+auto_course_state.json       # 运行状态（游标 / stopped）
+verify_all.json              # 核验结果
+
+# 运行产物
+logs/
+attic/
+_dbg/
+_run/
+auto_course.log
+auto_run.out
+auto_run.err
+sup.out
+sup.err
+waiter.out
+waiter.err
+keeper.log
+auto_help/
+__pycache__/
